@@ -115,11 +115,14 @@ class CurltController extends Controller
         {
             $keydata = $Request->input('keydata'); // รับตัวแปร name จาก html form
             $medthod_name = $Request->input('medthod_name'); // รับตัวแปร name จาก html form
-
+			$contract_id = $Request->input('contract_id'); // รับตัวแปร name จาก html form
+			  
             $data = array(
                 'keydata' => $keydata,
-                'medthod_name' => $medthod_name);
-              return view("step4",$data); // return ค่าออกไปแสดงที่ register view
+                'medthod_name' => $medthod_name,
+				'contract_id' => $contract_id);
+           
+		   return view("step4",$data); // return ค่าออกไปแสดงที่ register view
         }
       public function stepconfirm(Request $Request)
         {

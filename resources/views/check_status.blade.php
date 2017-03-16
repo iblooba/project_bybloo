@@ -43,14 +43,15 @@
                       <h4>กรอกข้อมูลที่ต้องการค้นหา User | Buyer</h4>
                     </div>
                   </div>
-                  <?php
-                        $contract_id = Session::get('contract_id');
-                        $id = Session::get('id');
-                   ?>
+
                   <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                   <div class="form-group col-sm-12 col-xs-12">
                     <label for=""></label>
                     <input type="text" class="form-control" name="keydata" value="4bfbc331ba5f1ab37bf266c3289a7de2c5a17196">
+                  </div>
+				    <div class="form-group col-sm-12 col-xs-12">
+                    <label for="">Contract Id</label>
+                    <input type="text" class="form-control" name="contract_id">
                   </div>
                   <div class="form-group col-sm-12 col-xs-12">
                     <label for="">Method Name</label>

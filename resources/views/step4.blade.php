@@ -1,6 +1,5 @@
 <?php
-$contract_id = Session::get('contract_id');
-
+//$contract_id = Session::get('contract_id');
 $curl = curl_init();
 curl_setopt_array($curl, array(
   CURLOPT_PORT => "8000",

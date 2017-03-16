@@ -49,7 +49,7 @@
                                       <tbody>
                                         <tr>
                                           <th style="width:50%">รหัสรายการ :</th>
-                                          <th style="width:50%">{!!$orders->OrderNo!!}</th>
+                                          <th style="width:50%">{!!$orders->contract_id!!}</th>
                                         </tr>
                                         <tr>
                                           <th style="width:50%">From [buyer]: </th>

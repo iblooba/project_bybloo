@@ -49,7 +49,7 @@
                     <label for=""></label>
                     <input type="text" class="form-control" name="keydata" value="4bfbc331ba5f1ab37bf266c3289a7de2c5a17196">
                   </div>
-				    <div class="form-group col-sm-12 col-xs-12">
+                  <div class="form-group col-sm-12 col-xs-12">
                     <label for="">Contract Id</label>
                     <input type="text" class="form-control" name="contract_id">
                   </div>
@@ -58,11 +58,9 @@
                     <input type="text" class="form-control" name="medthod_name">
                   </div>
                   <div class="col-xs-12">
-                    <div class="well well-lg clearfix">
                       <ul class="pager">
-                            <input type="submit" value="Continute" class = "btn btn-primary">
+                            <input type="submit" value=" Continute " class = "btn btn-primary">
                       </ul>
-                    </div>
                   </div>
                 </form>
               </div>

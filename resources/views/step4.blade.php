@@ -69,7 +69,7 @@ if ($err) {
               </div>
             </div>
           </section>
-          
+     </div>
           <script src="{{asset('/assets/ajax/libs/jquery/1.11.3/jquery.min.js')}}"></script>
           <script src="{{asset('/assets/plugins/jquery-ui/jquery-ui.js')}}"></script>
           <script src="{{asset('/assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>

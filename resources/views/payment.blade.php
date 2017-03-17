@@ -43,17 +43,15 @@
             <div class="col-xs-12">
               <div class="innerWrapper clearfix stepsPage">
                 <div class="row progress-wizard" style="border-bottom:0;">
-
                   <div class="col-xs-3 progress-wizard-step complete fullBar">
                     <div class="text-center progress-wizard-stepnum">Billing &amp; Shipping Address</div>
                     <div class="progress"><div class="progress-bar"></div></div>
-                    <a href="checkout-step-1.html" class="progress-wizard-dot"></a>
+                    <a href="#" class="progress-wizard-dot"></a>
                   </div>
-
                   <div class="col-xs-3 progress-wizard-step active">
                     <div class="text-center progress-wizard-stepnum">Payment Method</div>
                     <div class="progress"><div class="progress-bar"></div></div>
-                    <a href="checkout-step-3.html" class="progress-wizard-dot"></a>
+                    <a href="#" class="progress-wizard-dot"></a>
                   </div>
                 </div>
                <?php
@@ -74,7 +72,6 @@
                     <label for="">seller</label>
                     <input type="text" class="form-control" name="seller" value="63669e20b25256a9767339a0fb7a54768218004f">
                   </div>
-
                   <div class="form-group col-sm-4 col-xs-12">
                     <label for="">price</label>
                     <input type="text" class="form-control" name="price">
@@ -83,15 +80,10 @@
                     <label for="">paymentTerm</label>
                     <input type="text" class="form-control" name="paymentTerm">
                   </div>
-
                   <div class="col-xs-12">
-                    <div class="well well-lg clearfix">
                       <ul class="pager">
-
-                            <input type="submit" value="Continute" class = "btn btn-primary">
-
+                          <input type="submit" value="Continute" class = "btn btn-primary">
                       </ul>
-                    </div>
                   </div>
                 </form>
               </div>
@@ -99,7 +91,6 @@
           </div>
         </div>
       </section>
-
   </div>
 
     <script src="{{asset('/assets/ajax/libs/jquery/1.11.3/jquery.min.js')}}"></script>

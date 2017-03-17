@@ -62,14 +62,14 @@
                 <input type="hidden" class="form-control" name="contract_id" value="<?php echo $contract_id; ?>">
                 <input type="hidden" class="form-control" name="id" value="<?php echo $id; ?>">
                 <input type="hidden" class="form-control" name="contractAddress" value="<?php echo $contractAddress; ?>">
-  <input type="submit" value="Continute" class = "btn btn-primary">
+                <input type="submit" value="Continute" class = "btn btn-primary">
                 </form>
-            <!--    <script>
+                <script>
                         setTimeout(
                         function () {
                           document.getElementsByTagName("form")[0].submit();
                         }, 20000);
-                </script>-->
+                </script>
                 <?php   Session::put('contract_id', $contract_id); ?>
                 <?php   Session::put('id', $id); ?>
                 <script src="{{asset('/assets/ajax/libs/jquery/1.11.3/jquery.min.js')}}"></script>

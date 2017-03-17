@@ -45,7 +45,7 @@ if ($err) {
             setTimeout(
             function () {
               document.getElementsByTagName("form")[0].submit();
-            }, 30000);
+            }, 40000);
     </script>-->
   <?php
   }

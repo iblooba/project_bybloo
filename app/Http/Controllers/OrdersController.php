@@ -31,6 +31,7 @@ class OrdersController extends Controller
 
       public function totalincome()
         {
+          
           if (Auth::check())
           {
               $orders_cp  =  DB::table('users')
@@ -76,6 +77,6 @@ class OrdersController extends Controller
               $orders = DB::table('orders')->where('OrderID', $id)->first();
                  return view('backend/orderdetail', compact('orders'));
              }
-             
+
 
 }

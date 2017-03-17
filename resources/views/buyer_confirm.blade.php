@@ -24,11 +24,10 @@
     <link href="{{asset('/assets/css/parley.css')}}" rel="stylesheet">
 </head>
     <body class="body-wrapper version3">
-      <!--=== option Switcher ===-->
       <div class="main-wrapper">
         <!-- HEADER -->
         <div class="header clearfix headerV2">
-          @include('header')    <!-- TOPBAR -->
+          @include('header')
         </div>
       <!-- MAIN CONTENT SECTION -->
       <section class="mainContent clearfix stepsWrapper">
@@ -40,7 +39,7 @@
                   <form action="/stepconfirm" class="row" method="post" role="form">
                     <div class="col-xs-12">
                       <div class="page-header">
-                        <h4>กรอก id</h4>
+                        <h4>กรอก Contract Id</h4>
                       </div>
                     </div>
                     <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
@@ -49,11 +48,9 @@
                       <input type="text" class="form-control" name="contract_id">
                     </div>
                     <div class="col-xs-12">
-                      <div class="well well-lg clearfix">
                         <ul class="pager">
-                            <input type="submit" value="Continute" class = "btn btn-primary">
+                            <input type="submit" value=" Continute " class = "btn btn-primary">
                         </ul>
-                      </div>
                     </div>
                   </form>
                 </div>
